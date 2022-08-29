@@ -1,0 +1,72 @@
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.deps.json
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.dll
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.pdb
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.AssemblyReference.cache
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.GeneratedMSBuildEditorConfig.editorconfig
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfoInputs.cache
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfo.cs
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.CoreCompileInputs.cache
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.dll
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\refint\Hiring.Data.dll
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.pdb
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\ref\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.deps.json
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.AssemblyReference.cache
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfoInputs.cache
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfo.cs
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.CoreCompileInputs.cache
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\refint\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Data\obj\Debug\net6.0\ref\Hiring.Data.dll
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.deps.json
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.AssemblyReference.cache
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfoInputs.cache
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfo.cs
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.CoreCompileInputs.cache
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\refint\Hiring.Data.dll
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\ref\Hiring.Data.dll
+G:\IT\3 WEB\LAB\Hiring.Data\bin\Debug\net6.0\Hiring.Data.deps.json
+G:\IT\3 WEB\LAB\Hiring.Data\bin\Debug\net6.0\Hiring.Data.dll
+G:\IT\3 WEB\LAB\Hiring.Data\bin\Debug\net6.0\Hiring.Data.pdb
+G:\IT\3 WEB\LAB\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.AssemblyReference.cache
+G:\IT\3 WEB\LAB\Hiring.Data\obj\Debug\net6.0\Hiring.Data.GeneratedMSBuildEditorConfig.editorconfig
+G:\IT\3 WEB\LAB\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfoInputs.cache
+G:\IT\3 WEB\LAB\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfo.cs
+G:\IT\3 WEB\LAB\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.CoreCompileInputs.cache
+G:\IT\3 WEB\LAB\Hiring.Data\obj\Debug\net6.0\Hiring.Data.dll
+G:\IT\3 WEB\LAB\Hiring.Data\obj\Debug\net6.0\refint\Hiring.Data.dll
+G:\IT\3 WEB\LAB\Hiring.Data\obj\Debug\net6.0\Hiring.Data.pdb
+G:\IT\3 WEB\LAB\Hiring.Data\obj\Debug\net6.0\ref\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.deps.json
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.AssemblyReference.cache
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfoInputs.cache
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfo.cs
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.CoreCompileInputs.cache
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\refint\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\MyHiring\Hiring.Data\obj\Debug\net6.0\ref\Hiring.Data.dll
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.deps.json
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\bin\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.AssemblyReference.cache
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfoInputs.cache
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.AssemblyInfo.cs
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.csproj.CoreCompileInputs.cache
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\obj\Debug\net6.0\refint\Hiring.Data.dll
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\obj\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Data\obj\Debug\net6.0\ref\Hiring.Data.dll

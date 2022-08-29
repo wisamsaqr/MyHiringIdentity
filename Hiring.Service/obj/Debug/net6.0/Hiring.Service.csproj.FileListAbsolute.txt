@@ -1,0 +1,90 @@
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.deps.json
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.dll
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.pdb
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.AssemblyReference.cache
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.GeneratedMSBuildEditorConfig.editorconfig
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfoInputs.cache
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfo.cs
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CoreCompileInputs.cache
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.dll
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\refint\Hiring.Service.dll
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.pdb
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\ref\Hiring.Service.dll
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.dll
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.pdb
+G:\LAB\MVC\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CopyComplete
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.deps.json
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.dll
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.pdb
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.AssemblyReference.cache
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfoInputs.cache
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfo.cs
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CoreCompileInputs.cache
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CopyComplete
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.dll
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\refint\Hiring.Service.dll
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.pdb
+C:\Wisam Saqr\Work\MyHiring\MyHiring\Hiring.Service\obj\Debug\net6.0\ref\Hiring.Service.dll
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.deps.json
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.dll
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.pdb
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.AssemblyReference.cache
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfoInputs.cache
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfo.cs
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CoreCompileInputs.cache
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CopyComplete
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.dll
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\refint\Hiring.Service.dll
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.pdb
+C:\Wisam Saqr\Work\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\ref\Hiring.Service.dll
+G:\IT\3 WEB\LAB\Hiring.Service\bin\Debug\net6.0\Hiring.Service.deps.json
+G:\IT\3 WEB\LAB\Hiring.Service\bin\Debug\net6.0\Hiring.Service.dll
+G:\IT\3 WEB\LAB\Hiring.Service\bin\Debug\net6.0\Hiring.Service.pdb
+G:\IT\3 WEB\LAB\Hiring.Service\bin\Debug\net6.0\Hiring.Data.dll
+G:\IT\3 WEB\LAB\Hiring.Service\bin\Debug\net6.0\Hiring.Data.pdb
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.AssemblyReference.cache
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\Hiring.Service.GeneratedMSBuildEditorConfig.editorconfig
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfoInputs.cache
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfo.cs
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CoreCompileInputs.cache
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CopyComplete
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\Hiring.Service.dll
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\refint\Hiring.Service.dll
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\Hiring.Service.pdb
+G:\IT\3 WEB\LAB\Hiring.Service\obj\Debug\net6.0\ref\Hiring.Service.dll
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.deps.json
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.dll
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.pdb
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.AssemblyReference.cache
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfoInputs.cache
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfo.cs
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CoreCompileInputs.cache
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CopyComplete
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.dll
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\refint\Hiring.Service.dll
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.pdb
+C:\Wisam Saqr\Work\MyHiring\Hiring.Service\obj\Debug\net6.0\ref\Hiring.Service.dll
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.deps.json
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.dll
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Service.pdb
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.dll
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\bin\Debug\net6.0\Hiring.Data.pdb
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.AssemblyReference.cache
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfoInputs.cache
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.AssemblyInfo.cs
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CoreCompileInputs.cache
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.csproj.CopyComplete
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.dll
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\refint\Hiring.Service.dll
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\Hiring.Service.pdb
+C:\Wisam Saqr\Work\xxx\MyHiring\Hiring.Service\obj\Debug\net6.0\ref\Hiring.Service.dll

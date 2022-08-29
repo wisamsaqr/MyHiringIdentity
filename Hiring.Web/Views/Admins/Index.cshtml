@@ -1,0 +1,58 @@
+﻿@model Hiring.Service.Utilities.Pagination<IEnumerable<AdminVm>>
+
+@{
+    ViewBag.Title = "إدارة مسؤولي النظام";
+}
+
+<h1>إدارة مسؤولي النظام</h1>
+
+<p>
+    <a asp-action="Create">إنشاء مسؤول النظام</a>
+</p>
+
+<!--Search-->
+    <form method="get">
+        <div class="row">
+            <div class="col-md-4">
+                <input name="q" value="@ViewBag.q" placeholder="ابحث..." class="form-control" />
+            </div>
+            <div class="col-md-4">
+                <input type="submit" value="ابحث" class="btn btn-primary" />
+            </div>
+        </div>
+    </form>
+<!--End Search-->
+
+@if (Model.Data.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(x => x.Data.First().FullName)</th>
+                <th>@Html.DisplayNameFor(x => x.Data.ElementAt(0).User.Email)</th>
+                <th>@Html.DisplayNameFor(x => x.Data.First().User.PhoneNumber)</th>
+                <th>@Html.DisplayNameFor(x => x.Data.First().ImageUrl)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Data)
+            {
+                <tr>
+                    <td>@item.FullName</td>
+                    <td>@item.User.Email</td>
+                    <td>@item.User.PhoneNumber</td>
+                    <td><img src="/images/@item.ImageUrl" /></td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">تعديل</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">حذف</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">تفاصيل</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">لا يوجد مسؤولي النظام</div>
+}

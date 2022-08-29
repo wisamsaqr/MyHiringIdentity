@@ -1,0 +1,176 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hiring.Web
+build_property.RootNamespace = Hiring.Web
+build_property.ProjectDir = C:\Wisam Saqr\Work\MyHiring\Hiring.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Wisam Saqr\Work\MyHiring\Hiring.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Admins/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Admins/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Admins/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Admins/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations2/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnMyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations2/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnMyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnMyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations2/IndexDataPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnMyXEluZGV4RGF0YVBhZ2luYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations2/IndexPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnMyXEluZGV4UGFnaW5hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations/IndexDataPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcSW5kZXhEYXRhUGFnaW5hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Foundations/IndexPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcSW5kZXhQYWdpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/JobAdvertisements/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQWR2ZXJ0aXNlbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/JobAdvertisements/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQWR2ZXJ0aXNlbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/JobAdvertisements/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQWR2ZXJ0aXNlbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/JobAdvertisements/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQWR2ZXJ0aXNlbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/JobSeekers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2Vyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/JobSeekers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2Vyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/JobSeekers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/JobSeekers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_DataPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXRhUGFnaW5hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_MyPagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeVBhZ2luYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_MyPagination2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeVBhZ2luYXRpb24yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_MyPagination3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeVBhZ2luYXRpb24zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_MyPaginationX.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeVBhZ2luYXRpb25YLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_Pagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_Summernote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdW1tZXJub3RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wisam Saqr/Work/MyHiring/Hiring.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x1sy9nmmg1

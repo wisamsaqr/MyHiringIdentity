@@ -1,0 +1,84 @@
+﻿@model Hiring.Service.Utilities.Pagination<IEnumerable<FoundationVm>>
+
+@{
+    ViewBag.Title = "إدارة المؤسسات";
+}
+
+<h1>إدارة المؤسسات</h1>
+
+<p>
+    <a asp-action="Create">إنشاء مؤسسة</a>
+</p>
+
+<!--Search-->
+    <form method="get">
+        <div class="row">
+            <div class="col-md-4">
+                <input name="q" value="@ViewBag.q" placeholder="ابحث..." class="form-control" />
+            </div>
+            <div class="col-md-4">
+                <input type="submit" value="ابحث" class="btn btn-primary" />
+            </div>
+        </div>
+    </form>
+<!--End Search-->
+
+@if (Model.Data.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>الاسم</th>
+                <th>البريد</th>
+                <th>الهاتف</th>
+                <th>طبيعة العمل</th>
+                <th>العنوان</th>
+                <th>اسم المالك</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var foundation in Model.Data)
+            {
+                <tr>
+                    <td>@foundation.Name</td>
+                    <td>@foundation.Email</td>
+                    <td>@foundation.PhoneNumber</td>
+                    <td>@foundation.WorkNature</td>
+                    <td>@foundation.Address</td>
+                    <td>@foundation.OwnerName</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@foundation.Id" class="btn btn-warning">تعديل</a>
+                        @Html.ActionLink("حذف", "Delete", new { id = foundation.Id }, new { @class="btn btn-danger confirmation" })
+                        @*@Html.ActionLink("حذف", "Delete", new { id = foundation.Id }, new { @class="btn btn-danger" })*@
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    await Html.RenderPartialAsync("_Pagination");
+    <br />
+    await Html.RenderPartialAsync("_MyPagination");
+    <br />
+    await Html.RenderPartialAsync("_MyPagination2");
+    <br />
+    await Html.RenderPartialAsync("_MyPagination3");
+    @*<br />
+    await Html.RenderPartialAsync("_MyPaginationX");*@
+}
+else
+{
+    <div class="alert alert-warning">لا يوجد مؤسسات</div>
+}
+
+
+
+
+@*<h1>@ViewContext.RouteData.Values["controller"].ToString()</h1>
+    <h1>@ViewContext.RouteData.Values["action"].ToString()</h1>
+    <hr />
+    <h1>@Context.Request.Scheme</h1>
+    <h1>@Context.Request.Host</h1>
+    <h1>@Context.Request.Path</h1>
+    <h1>@Context.Request.QueryString</h1>*@

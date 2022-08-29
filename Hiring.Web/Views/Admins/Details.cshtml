@@ -1,0 +1,42 @@
+﻿@model JobAdvertisementDetailsVm
+
+@{
+    ViewBag.Title = "تفاصيل إلانات التوظيف";
+}
+
+<h1>تفاصيل إعلانات التوظيف</h1>
+
+<dl>
+    <dt>@Html.DisplayNameFor(x => x.Title)</dt>
+    <dd>@Model.Title</dd>
+    <dd>@Html.DisplayTextFor(x => x.Title)</dd>
+
+    @*<dt>@Html.DisplayNameFor(x => x.Foundation)</dt>*@
+    <dt>@Html.DisplayNameFor(x => x.Foundation.Name)</dt>
+    @*<dt>@Html.DisplayTextFor(x => x.Foundation.Name)</dt>*@
+    <dd>@Model.Foundation.Name</dd>
+
+    <dt>@Html.DisplayNameFor(x => x.Deadline)</dt>
+    <dd>@Model.Deadline</dd>
+
+    <dt>@Html.DisplayNameFor(x => x.Details)</dt>
+    <dd>@Html.Raw(Model.Details)</dd>
+</dl>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>اسم الملف</th>
+            <th>عرض الملف</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var attachment in Model.Attachments)
+        {
+            <tr>
+                <td>@attachment.Url</td>
+                <td><a target="_blank" href="~/attachments/@attachment.Url">عرض</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

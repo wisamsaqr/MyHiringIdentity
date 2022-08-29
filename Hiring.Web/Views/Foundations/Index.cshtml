@@ -1,0 +1,49 @@
+﻿@model IEnumerable<FoundationVm>
+
+@{
+    ViewBag.Title = "إدارة المؤسسات";
+}
+
+<h1>إدارة المؤسسات</h1>
+
+<p>
+    <a asp-action="Create">إنشاء مؤسسة</a>
+</p>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>الاسم</th>
+                <th>البريد</th>
+                <th>الهاتف</th>
+                <th>طبيعة العمل</th>
+                <th>العنوان</th>
+                <th>اسم المالك</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var foundation in Model)
+            {
+                <tr>
+                    <td>@foundation.Name</td>
+                    <td>@foundation.Email</td>
+                    <td>@foundation.PhoneNumber</td>
+                    <td>@foundation.WorkNature</td>
+                    <td>@foundation.Address</td>
+                    <td>@foundation.OwnerName</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@foundation.Id" class="btn btn-warning">تعديل</a>
+                        @Html.ActionLink("حذف", "Delete", new { id = foundation.Id }, new { @class="btn btn-danger" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">لا يوجد مؤسسات</div>
+}

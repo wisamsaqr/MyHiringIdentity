@@ -1,0 +1,76 @@
+﻿<!--Pagination-->
+@{
+    var url = "/" + ViewContext.RouteData.Values["controller"].ToString()
+            + "/" + ViewContext.RouteData.Values["action"].ToString();
+
+    var queryString = Context.Request.QueryString;
+    url += "?";
+    if (queryString.HasValue && queryString.Value.Contains("q="))
+    {
+        if (queryString.Value.Contains("&"))
+        {
+            url += queryString.Value.Substring(queryString.Value.IndexOf("q="), queryString.Value.IndexOf("&") - 1);
+        }
+        else
+        {
+            url += queryString.Value.Substring(queryString.Value.IndexOf("q="));
+        }
+    }
+    url += "&page=";
+
+    //// ////
+
+    int pagesBeforeOrAfterTheCurrentPage = 4;
+    int start, end;
+
+    if (Model.PagesCount <= (pagesBeforeOrAfterTheCurrentPage * 2 + 1))   //Pages count less than default pagination elements
+    {
+        start = 1;
+        end = Model.PagesCount;
+    }
+    else if (Model.CurrentPage <= pagesBeforeOrAfterTheCurrentPage)    //We are at the first pages
+    {
+        start = 1;
+        end = pagesBeforeOrAfterTheCurrentPage * 2;
+    }
+    else if (Model.CurrentPage  >= Model.PagesCount - pagesBeforeOrAfterTheCurrentPage)   //We are at the last pages
+    {
+        start = Model.PagesCount - pagesBeforeOrAfterTheCurrentPage * 2;
+        end = Model.PagesCount;
+    }
+    else    //We are at the middle of the pages
+    {
+        start = Model.CurrentPage - pagesBeforeOrAfterTheCurrentPage;
+        end = Model.CurrentPage + pagesBeforeOrAfterTheCurrentPage;
+    }
+}
+<nav aria-label="...">
+    <ul class="pagination">
+        <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
+            <a class="page-link" href="@(url + 1)" tabindex="-1">الأولى</a>
+        </li>
+        <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
+            <a class="page-link" href="@(url + (Model.CurrentPage - 1))" tabindex="-1">السابق</a>
+        </li>
+        @for (int i = start; i <= end; i++)
+        {
+            if (i == Model.CurrentPage)
+            {
+                <li class="page-item active">
+                    <a class="page-link" href="@(url + i)">@i<span class="sr-only">(current)</span></a>
+                </li>
+            }
+            else
+            {
+                <li class="page-item"><a class="page-link" href="@url@i">@i</a></li>
+            }
+        }
+        <li class="page-item @(Model.CurrentPage == Model.PagesCount ? "disabled" : "")">
+            <a class="page-link" href="@url@(Model.CurrentPage + 1)">التالي</a>
+        </li>
+        <li class="page-item @(Model.CurrentPage == Model.PagesCount ? "disabled" : "")">
+            <a class="page-link" href="@(url + Model.PagesCount)">الأخيرة</a>
+        </li>
+    </ul>
+</nav>
+<!--End Pagination-->

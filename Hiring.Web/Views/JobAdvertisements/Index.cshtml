@@ -1,0 +1,113 @@
+﻿@using Hiring.Data.Enums
+@model Hiring.Service.Utilities.Pagination<IEnumerable<JobAdvertisementVm>>
+
+@{
+    ViewBag.Title = "إدارة إعلانات التوظيف";
+    string status = ViewBag.status;
+}
+
+<h1>إدارة إعلانات التوظيف</h1>
+
+<p>
+    <a asp-action="Create">إنشاء إعلان توظيف</a>
+</p>
+
+<!--Search-->
+    <form method="get">
+        <div class="row">
+            <div class="col-md-4">
+                <input name="q" value="@ViewBag.q" placeholder="ابحث..." class="form-control" />
+            </div>
+            <div class="col-md-4">
+                @*<select name="status" asp-items="Html.GetEnumSelectList<JobAdvertisementStatus>()" class="form-control">
+                    <option value="">اختر حالة الطلب..</option>
+                </select>*@
+
+            @{
+                //var statusList = Html.GetEnumSelectList<JobAdvertisementStatus>();
+                //var selectedStatus = statusList.SingleOrDefault(x => x.Value == status);
+                //if(selectedStatus != null)
+                //    selectedStatus.Selected = true;
+
+                var statusList = Html.GetEnumSelectList<JobAdvertisementStatus>();
+                if(status != "0")
+                    statusList.SingleOrDefault(x => x.Value == status).Selected = true;
+            }
+                <select name="status" asp-items="statusList" class="form-control">
+                    <option value="">اختر حالة الطلب..</option>
+                </select>
+
+                @*<select name="status"
+                    asp-items="Html.GetEnumSelectList<JobAdvertisementStatus>().Select(x => new SelectListItem()
+                            {Text = x.Text, Value = x.Value, Selected = x.Value.Equals(status)})"
+                    class="form-control">
+                    <option value="">اختر حالة الطلب..</option>
+                </select>*@
+
+                @*<select name="status"
+                    asp-items="Html.GetEnumSelectList(typeof(JobAdvertisementStatus)).Select(x => new SelectListItem()
+                            {Text = x.Text, Value = x.Value, Selected = x.Value.Equals(status)})"
+                    class="form-control">
+                    <option value="">اختر حالة الطلب..</option>
+                </select>*@
+
+                @*@Html.DropDownList("status", Html.GetEnumSelectList<JobAdvertisementStatus>()
+                    .Select(x => new SelectListItem() {Text = x.Text, Value = x.Value, Selected = x.Value.Equals(status)}),
+                    "اختر حالة الطلب..", new { @class = "form-control" })*@
+            </div>
+            <div class="col-md-4">
+                <input type="submit" value="ابحث" class="btn btn-primary" />
+            </div>
+        </div>
+    </form>
+<!--End Search-->
+
+@if (Model.Data.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(x => x.Data.First().Title)</th>
+                <th>@Html.DisplayNameFor(x => x.Data.ElementAt(0).Deadline)</th>
+                <th>@Html.DisplayNameFor(x => x.Data.ElementAt(0).Foundation)</th>
+                <th>حالة إعلان التوظيف</th>
+                <th>@Html.DisplayNameFor(x => x.Data.ElementAt(0).Foundation.PhoneNumber)</th>
+                <th>@Html.DisplayNameFor(x => x.Data.ElementAt(0).ApplicantsCount)</th>
+                <th>العمليات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Data)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Deadline.ToString("yyyy-MM-dd")</td>
+                    <td>@item.Foundation.Name</td>
+                    <td>@item.Status.ToString()</td>
+                    <td>@item.Foundation.PhoneNumber</td>
+                    <td>@item.ApplicantsCount</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">تعديل</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">حذف</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">تفاصيل</a>
+                        <a asp-action="Applicants" asp-route-id="@item.Id" class="btn btn-info">المتقدمين للوظيفة</a>
+
+                        @if (item.Status == JobAdvertisementStatus.Pending || item.Status == JobAdvertisementStatus.Rejected)
+                        {
+                            <a href="~/JobAdvertisements/SetStatus/@item.Id?status=2" class="btn btn-success">قبول</a>
+                        }
+                        @if (item.Status == JobAdvertisementStatus.Pending || item.Status == JobAdvertisementStatus.Approved)
+                        {
+                            <a asp-action="SetStatus" asp-route-id="@item.Id" asp-route-status="3"
+                                class="btn btn-warning">رفض</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">لا يوجد إعلانات توظيف</div>
+}

@@ -1,0 +1,179 @@
+﻿@*@model Hiring.Data.ViewModels.DashboardVm*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="card card-custom">
+    <div class="card-header flex-wrap border-0 pt-6 pb-0">
+        <div class="card-title">
+            <h2 class="card-label">
+                <span class="d-block pt-5 font-size-h2-lg">إدارة الاحصائيات</span>
+            </h2>
+        </div>
+
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="alert alert-info">
+                    <h3>‘إجمالي عدد المستخدمين</h3>
+                    @*<h4>@Model.NumberOfUsers</h4>*@
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-info">
+                    <h3>إجمالي عدد طلبات التوظيف</h3>
+                    @*<h4>@Model.NumberOfHiringApplication</h4>*@
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-info">
+                    <h3>إجمالي عدد التقديم</h3>
+                    @*<h4>@Model.NumberOfApplicant</h4>*@
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-info">
+                    <h3>إجمالي عدد المؤسسات</h3>
+                    @*<h4>@Model.NumberOfOrgnisation</h4>*@
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-md-6">
+                <canvas id="userTypeChart" height="40vh" width="80vw"></canvas>
+            </div>
+            <div class="col-md-6">
+                <canvas id="hiringApplicationTypeChart" height="40vh" width="80vw"></canvas>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-md-12">
+                <canvas id="hiringApplicationByMonthChart" height="40vh" width="80vw"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts
+{
+    <script src="https://cdnjs.com/libraries/Chart.js"></script>
+    <script>
+        var userTypechart = document.getElementById('userTypeChart');
+        var hiringApplicationTypeChart = document.getElementById('hiringApplicationTypeChart');
+        var hiringApplicationByMonthChart = document.getElementById('hiringApplicationByMonthChart');
+        var userTypeData = [];
+        var hiringApplicationTypeData = [];
+        var hiringApplicationByMonthData = [];
+
+        $.ajax(
+        {
+            url: '@Url.Action("GetUserType", "Home")',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function(Data)
+            {
+                $(Data).each(function(index, value)
+                {
+                    userTypeData.push(value);
+                });
+                var myChart1 = new Chart(userTypechart, {
+                    type: 'pie',
+                    data: {
+                        labels: ['المدراء', 'مدراء المؤسسات', 'المتقدمين'],
+                        datasets: [{
+                            label: '# of Votes',
+                            data: userTypeData,
+                            backgroundColor: [
+                                'rgb(255, 99, 132)',
+                                'rgb(54, 162, 235)',
+                                'rgb(255, 206, 86)'
+                            ]
+                        }]
+                    },
+                    options: {
+
+                    }
+                });
+
+            }
+        });
+
+        $.ajax({
+            url: '@Url.Action("GetHiringApplicationType", "Home")',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function(Data) {
+                $(Data).each(function(index, value) {
+                    hiringApplicationTypeData.push(value);
+                });
+
+                var myChart2 = new Chart(hiringApplicationTypeChart, {
+                    type: 'pie',
+                    data: {
+                        labels: ['قيد الانتظار', 'مقبول', 'مرفوض'],
+                        datasets: [{
+                            label: '# of Votes',
+                            data: hiringApplicationTypeData,
+                            backgroundColor: [
+                                'rgb(255, 99, 132)',
+                                'rgb(54, 162, 235)',
+                                'rgb(255, 206, 86)'
+                            ]
+                        }]
+                    },
+                    options: {
+
+                    }
+                });
+
+            }
+        });
+
+        $.ajax({
+            url: '@Url.Action("GetHiringApplicationByMonth", "Home")',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function(Data) {
+                $(Data).each(function(index, value) {
+                    hiringApplicationByMonthData.push(value);
+                });
+
+                var myChart3 = new Chart(hiringApplicationByMonthChart, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jon', 'Jul', 'Aug', 'Sep', 'October', 'Dec', 'Nov'],
+                        datasets: [{
+                            label: '# of Votes',
+                            data: hiringApplicationByMonthData,
+                            backgroundColor: [
+                                'rgb(255, 99, 132)',
+                                'rgb(54, 162, 235)',
+                                'rgb(255, 206, 86)',
+                                'rgb(255, 99, 142)',
+                                'rgb(54, 162, 235)',
+                                'rgb(255, 206, 86)',
+                                'rgb(255, 99, 132)',
+                                'rgb(54, 162, 235)',
+                                'rgb(255, 206, 86)',
+                                'rgb(255, 99, 132)',
+                                'rgb(54, 162, 235)',
+                                'rgb(255, 206, 86)'
+                            ]
+                        }]
+                    },
+                    options: {
+
+                    }
+                });
+            }
+        });
+    </script>
+}

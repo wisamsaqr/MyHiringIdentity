@@ -1,0 +1,75 @@
+﻿@model IEnumerable<UserVm>
+
+@{
+    ViewData["Title"] = "إدارة المستخدمين";
+}
+
+<h1>إدارة المستخدمين</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    اسم المستخدم
+                    @*@Html.DisplayNameFor(model => model.UserName)*@
+                </th>
+                <th>
+                    البريد
+                </th>
+                <th>
+                    رقم الهاتف
+                </th>
+                <th>
+                    نوع المستخدم
+                </th>
+                <th>
+                    اسم المؤسسة
+                </th>
+                <th>
+                    تاريخ الإضافة
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.UserName
+                        @*@Html.DisplayFor(modelItem => item.UserName)*@
+                    </td>
+                    <td>
+                        @item.Email
+                    </td>
+                    <td>
+                        @item.PhoneNumber
+                    </td>
+                    <td>
+                        @item.UserType
+                    </td>
+                    <td>
+                        @(item.Foundation != null ? item.Foundation.Name : "---")
+                    </td>
+                    <td>
+                        @item.CreatedAt.ToString("yyyy-MM-dd")
+                    </td>
+                    <td>
+                        @Html.ActionLink("تعديل", "Edit", new { id = item.Id }, new { @class = "btn btn-warning" })
+                        <a href="~/Users/Delete/@item.Id" class="btn btn-danger">حذف</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">لا يوجد مستخدمين</div>
+}

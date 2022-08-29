@@ -1,0 +1,73 @@
+﻿@using Hiring.Data.Enums
+@model CreateUserVm
+
+<h1>إضافة مستخدم</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="UserType" class="control-label"></label>
+                <select asp-for="UserType" asp-items="Html.GetEnumSelectList<UserType>()" id="userTypeList" class="form-control"></select>
+                <span asp-validation-for="UserType" class="text-danger"></span>
+            </div>
+
+            <div id="foundationsList" class="form-group">
+                <label asp-for="FoundationId" class="control-label"></label>
+                <select asp-for="FoundationId" asp-items="ViewBag.FoundationsList" class="form-control">
+                    <option value="">اختر المؤسسة..</option>
+                </select>
+                <span asp-validation-for="FoundationId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="إضافة" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-danger">إلغاء</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+<script>
+    $('#foundationsList').hide();
+    $('#userTypeList').on('change', function ()
+    {
+        if (this.value == @UserType.Foundation.ToString("D"))
+        {
+            $('#foundationsList').show();
+        }
+        else
+        {
+            $('#foundationsList').hide();
+        }
+    });
+</script>
+}

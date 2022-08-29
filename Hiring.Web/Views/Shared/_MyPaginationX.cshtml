@@ -1,0 +1,39 @@
+﻿<!--Pagination-->
+@{
+    var url = "/" + ViewContext.RouteData.Values["controller"].ToString()
+            + "/" + ViewContext.RouteData.Values["action"].ToString()
+            + "?page=";
+
+    int pagesCount = ViewBag.pagesCount;
+    int currentPage = ViewBag.currentPage;
+}
+<nav aria-label="...">
+    <ul class="pagination">
+        <li class="page-item @(currentPage == 1 ? "disabled" : "")">
+            <a class="page-link" href="@(url + 1)" tabindex="-1">الأولى</a>
+        </li>
+        <li class="page-item @(currentPage == 1 ? "disabled" : "")">
+            <a class="page-link" href="@(url + (currentPage - 1))" tabindex="-1">السابق</a>
+        </li>
+        @for (int i = 1; i <= pagesCount; i++)
+        {
+            if (i == currentPage)
+            {
+                <li class="page-item active">
+                    <a class="page-link" href="@(url + i)">@i<span class="sr-only">(current)</span></a>
+                </li>
+            }
+            else
+            {
+                <li class="page-item"><a class="page-link" href="@url@i">@i</a></li>
+            }
+        }
+        <li class="page-item @(currentPage == pagesCount ? "disabled" : "")">
+            <a class="page-link" href="@url@(currentPage + 1)">التالي</a>
+        </li>
+        <li class="page-item @(currentPage == pagesCount ? "disabled" : "")">
+            <a class="page-link" href="@(url + pagesCount)">الأخيرة</a>
+        </li>
+    </ul>
+</nav>
+<!--End Pagination-->

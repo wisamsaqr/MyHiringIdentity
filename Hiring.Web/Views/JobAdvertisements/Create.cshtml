@@ -1,0 +1,82 @@
+﻿@model CreateJobAdvertisementVm
+
+@{
+    ViewData["Title"] = "إضافة إعلان توظيف";
+}
+
+<h1>إضافة إعلان توظيف</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Details" class="control-label"></label>
+                <textarea asp-for="Details" class="form-control summernote"></textarea>
+                <span asp-validation-for="Details" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Deadline" class="control-label"></label>
+                <input asp-for="Deadline" class="form-control" />
+                <span asp-validation-for="Deadline" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FoundationId" class="control-label"></label>
+                <select asp-for="FoundationId" asp-items="ViewBag.FoundationsList" class="form-control">
+                    <option value="">اختر المؤسسة..</option>
+                </select>
+                <span asp-validation-for="FoundationId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Attachments" class="control-label"></label>
+                <input asp-for="Attachments" class="form-control" />
+                <span asp-validation-for="Attachments" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="حفظ" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-danger">إلغاء</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section styles
+{
+<!--begin Summernote-->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<!--end Summernote-->
+}
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <!--begin Summernote-->
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $('.summernote').summernote(
+            {
+                tabsize: 2,
+                height: 100
+            });
+        });
+    </script>
+    <!--end Summernote-->
+}
