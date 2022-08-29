@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "98avtq3AUrmwBVBIVVRWTskJeN9TdXkbvuXysvZMups=",
+  "Hash": "XwD3lxv+f76mhONk6HC9LZmYX7Ic2zDIyyGONEL4QSw=",
   "Source": "Hiring.Web",
   "BasePath": "_content/Hiring.Web",
   "Mode": "Default",
@@ -36021,6 +36021,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\attachments\\2faed81e-0256-4da2-b0db-96f4f3acfbc4.png"
+    },
+    {
+      "Identity": "C:\\Wisam Saqr\\Work\\MyHiring\\Hiring.Web\\wwwroot\\attachments\\9ba92cdd-1ee0-4982-8b6e-5261d503659a.jpg",
+      "SourceId": "Hiring.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Wisam Saqr\\Work\\MyHiring\\Hiring.Web\\wwwroot\\",
+      "BasePath": "_content/Hiring.Web",
+      "RelativePath": "attachments/9ba92cdd-1ee0-4982-8b6e-5261d503659a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\attachments\\9ba92cdd-1ee0-4982-8b6e-5261d503659a.jpg"
     },
     {
       "Identity": "C:\\Wisam Saqr\\Work\\MyHiring\\Hiring.Web\\wwwroot\\attachments\\e5a6a77a-12fc-497d-900a-248abe3ea605.png",

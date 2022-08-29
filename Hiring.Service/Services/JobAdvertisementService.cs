@@ -113,11 +113,10 @@ namespace Hiring.Service.Services
             db.JobAdvertisements.Update(dbJobAdvertisement);
             await db.SaveChangesAsync();
 
-            await emailService.SendAsync(dbJobAdvertisement.Foundation.Email,
-                "Your job advertisement status has been updated",
-                $"Your job advertisement is {status}");
+            //await emailService.SendAsync(dbJobAdvertisement.Foundation.Email,
+            //    "Your job advertisement status has been updated",
+            //    $"Your job advertisement is {status}");
         }
-
 
         public async Task Delete(int id)
         {
