@@ -16,7 +16,7 @@ namespace Hiring.Data.ViewModels
         [Display(Name = "رقم الهاتف")]
         public string PhoneNumber { get; set; }
 
-        [Display(Name = "رقم الهاتف")]
+        [Display(Name = "نوع المستخدم")]
         public UserType UserType { get; set; }
 
         [Display(Name = "تاريخ الإضافة")]

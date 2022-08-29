@@ -8,7 +8,7 @@ namespace Hiring.Web.Controllers
     public class JobSeekersController : BaseController
     {
         private readonly IJobSeekerService jobSeekerService;
-        public JobSeekersController(IJobSeekerService jobSeekerService)
+        public JobSeekersController(IJobSeekerService jobSeekerService, IUserService userService) : base(userService)
         {
             this.jobSeekerService = jobSeekerService;
         }

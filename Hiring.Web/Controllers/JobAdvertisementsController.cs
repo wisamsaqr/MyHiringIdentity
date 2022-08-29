@@ -11,7 +11,7 @@ namespace Hiring.Web.Controllers
         private readonly IJobAdvertisementService jobAdvertisementService;
         private readonly IFoundationService foundationService;
         public JobAdvertisementsController(IJobAdvertisementService jobAdvertisementService,
-            IFoundationService foundationService)
+            IFoundationService foundationService, IUserService userService) : base(userService)
         {
             this.jobAdvertisementService = jobAdvertisementService;
             this.foundationService = foundationService;

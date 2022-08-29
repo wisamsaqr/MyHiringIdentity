@@ -7,7 +7,7 @@ namespace Hiring.Web.Controllers;
 public class FoundationsController : BaseController
 {
     private readonly IFoundationService _foundationService;
-    public FoundationsController(IFoundationService foundatioService)
+    public FoundationsController(IFoundationService foundatioService, IUserService userService) : base(userService)
     {
         _foundationService = foundatioService;
     }

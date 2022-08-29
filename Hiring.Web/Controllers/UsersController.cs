@@ -10,7 +10,7 @@ public class UsersController : BaseController
 {
     private readonly IUserService userService;
     private readonly IFoundationService foundationService;
-    public UsersController(IUserService userService, IFoundationService foundationService)
+    public UsersController(IUserService userService, IFoundationService foundationService) : base(userService)
     {
         this.userService = userService;
         this.foundationService = foundationService;

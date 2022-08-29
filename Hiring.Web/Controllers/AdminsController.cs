@@ -8,7 +8,7 @@ namespace Hiring.Web.Controllers
     public class AdminsController : BaseController
     {
         private readonly IAdminService adminService;
-        public AdminsController(IAdminService adminService)
+        public AdminsController(IAdminService adminService, IUserService userService) : base(userService)
         {
             this.adminService = adminService;
         }

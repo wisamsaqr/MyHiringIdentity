@@ -30,6 +30,12 @@ public class UserService : IUserService
         return _mapper.Map<List<UserVm>>(_userManager.Users.Include(x => x.Foundation));
     }
 
+    public UserVm GetByUsername(string userName)
+    {
+        var dbUser = _db.Users.Include(x => x.Admin).SingleOrDefault(x => x.UserName == userName);
+        return _mapper.Map<UserVm>(dbUser);
+    }
+
     public async Task<string> Create(CreateUserVm createUserVm)
     {
         if (_db.Users.Any(x => x.Email == createUserVm.Email || x.PhoneNumber == createUserVm.PhoneNumber))
@@ -100,8 +106,9 @@ public class UserService : IUserService
 public interface IUserService
 {
     public List<UserVm> GetAll();
-    public Task<EditUserVm> GetEditVm(string id);
+    public UserVm GetByUsername(string username);
     public Task<string> Create(CreateUserVm newUserVm);
+    public Task<EditUserVm> GetEditVm(string id);
     public Task Edit(EditUserVm modifiedUserVm);
     public Task Delete(string id);
 }
